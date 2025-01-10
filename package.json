@@ -5,12 +5,12 @@
   "scripts": {
     "test": "mocha --no-timeouts --parallel"
   },
-  "author": "",
+  "author": "BuiAnhTienn <tienmbui1272@gmail.com>",
   "license": "ISC",
-  "description": "",
+  "description": "Auto",
   "dependencies": {
     "chai": "^5.1.1",
-    "chromedriver": "^126.0.4",
+    "chromedriver": "^131.0.0",
     "mocha": "^10.6.0",
     "selenium-webdriver": "^4.22.0"
   }

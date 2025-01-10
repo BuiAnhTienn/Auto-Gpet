@@ -101,7 +101,7 @@ class LoginPage extends BasePage {
     if ((await notificationBlockUser.isDisplayed()) == true) {
       let getTextNotiBlockUser = await notificationBlockUser.getText();
       console.log(
-        (await getTextNotiBlockUser) === config.TEXT_NOTI_BLOCK_USER
+        (await getTextNotiBlockUser) == config.TEXT_NOTI_BLOCK_USER
           ? `Noti là: ${getTextNotiBlockUser}`
           : "SAI NOTIFICATION CHO TÀI KHOẢN BỊ KHÓA!"
       );

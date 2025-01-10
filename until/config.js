@@ -1,11 +1,11 @@
 // config.js
 module.exports = {
   BROWSER_CHROME: "chrome",
-  LOGIN_URL: "https://dev.gpet.vn/Login",
+  LOGIN_URL: "https://staging.gpet.vn/Login",
   SELL_URL: "https://dev.gpet.vn/sell/goods",
   FORGOT_PASSWORD_URL: "https://dev.gpet.vn/forgot-password",
   DEFAULT_USERNAME: "keocontau4@gmail.com",
-  DEFAULT_PASSWORD: "anhtien",
+  DEFAULT_PASSWORD: "thanden",
   NOT_EXIST_USERNAME: "keocontau@gmail.com",
   NOT_EXIST_PASSWORD: "anhtien2",
   BLOCKED_USERNAME: "pnr43504@zccck.com",
