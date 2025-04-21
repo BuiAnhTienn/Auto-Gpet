@@ -5,10 +5,10 @@ const config = require("../until/config");
 class LoginPage extends BasePage {
   constructor(driver) {
     super(driver);
-    this.usernameField = By.id("normal_login_email");
-    this.userpassField = By.xpath('//*[@id="normal_login_password"]/input');
+    this.usernameField = By.id(':r1:');
+    this.userpassField = By.xpath('//*[@id=":r2:"]');
     this.loginButton = By.xpath(
-      '//*[@id="normal_login"]/div[5]/div/div/div/div/button'
+      '//*[@id="root"]/div/div/div/div/div/div/div/div/div[2]/div[2]/form/form/div/div[2]/button'
     );
     this.checkboxSavePass = By.xpath(
       '//*[@id="normal_login"]/div[4]/div/div/div/div/label/span[1]/input'
